@@ -2,7 +2,7 @@
 
 namespace Clandro\Roles\Models;
 
-use Clandro\RolesTraits\Slugable;
+use Clandro\Roles\Traits\Slugable;
 use Illuminate\Database\Eloquent\Model;
 use Clandro\Roles\Traits\RoleHasRelations;
 use Clandro\Roles\Contracts\RoleHasRelations as RoleHasRelationsContract;
