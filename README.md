@@ -35,7 +35,7 @@ This package is very easy to set up. There are only couple of steps.
 
 ### Composer
 
-    composer require amgtronics/roles
+    composer require clandro89/laravel-roles
     
 
 
