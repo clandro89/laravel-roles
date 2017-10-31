@@ -31,7 +31,7 @@ class VerifyPermission
      * @param \Closure $next
      * @param int|string $permission
      * @return mixed
-     * @throws \Clandro\RolesExceptions\PermissionDeniedException
+     * @throws \Clandro\Roles\Exceptions\PermissionDeniedException
      */
     public function handle($request, Closure $next, $permission)
     {

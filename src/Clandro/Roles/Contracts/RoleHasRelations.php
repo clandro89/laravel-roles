@@ -21,7 +21,7 @@ interface RoleHasRelations
     /**
      * Attach permission to a role.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return int|bool
      */
     public function attachPermission($permission);
@@ -29,7 +29,7 @@ interface RoleHasRelations
     /**
      * Detach permission from a role.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return int
      */
     public function detachPermission($permission);

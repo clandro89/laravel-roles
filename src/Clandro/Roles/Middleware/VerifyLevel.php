@@ -31,7 +31,7 @@ class VerifyLevel
      * @param \Closure $next
      * @param int $level
      * @return mixed
-     * @throws \Clandro\RolesExceptions\LevelDeniedException
+     * @throws \Clandro\Roles\Exceptions\LevelDeniedException
      */
     public function handle($request, Closure $next, $level)
     {

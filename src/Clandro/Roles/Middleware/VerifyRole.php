@@ -31,7 +31,7 @@ class VerifyRole
      * @param \Closure $next
      * @param int|string $role
      * @return mixed
-     * @throws \Clandro\RolesExceptions\RoleDeniedException
+     * @throws \Clandro\Roles\Exceptions\RoleDeniedException
      */
     public function handle($request, Closure $next, $role)
     {

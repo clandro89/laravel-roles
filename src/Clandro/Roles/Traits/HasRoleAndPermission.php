@@ -108,7 +108,7 @@ trait HasRoleAndPermission
     /**
      * Attach role to a user.
      *
-     * @param int|\Clandro\RolesModels\Role $role
+     * @param int|\Clandro\Roles\Models\Role $role
      * @return null|bool
      */
     public function attachRole($role)
@@ -119,7 +119,7 @@ trait HasRoleAndPermission
     /**
      * Detach role from a user.
      *
-     * @param int|\Clandro\RolesModels\Role $role
+     * @param int|\Clandro\Roles\Models\Role $role
      * @return int
      */
     public function detachRole($role)
@@ -309,7 +309,7 @@ trait HasRoleAndPermission
     /**
      * Detach permission from a user.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return int
      */
     public function detachPermission($permission)

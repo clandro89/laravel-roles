@@ -56,7 +56,7 @@ interface HasRoleAndPermission
     /**
      * Attach role to a user.
      *
-     * @param int|\Clandro\RolesModels\Role $role
+     * @param int|\Clandro\Roles\Models\Role $role
      * @return null|bool
      */
     public function attachRole($role);
@@ -64,7 +64,7 @@ interface HasRoleAndPermission
     /**
      * Detach role from a user.
      *
-     * @param int|\Clandro\RolesModels\Role $role
+     * @param int|\Clandro\Roles\Models\Role $role
      * @return int
      */
     public function detachRole($role);
@@ -151,7 +151,7 @@ interface HasRoleAndPermission
     /**
      * Attach permission to a user.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return null|bool
      */
     public function attachPermission($permission);
@@ -159,7 +159,7 @@ interface HasRoleAndPermission
     /**
      * Detach permission from a user.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return int
      */
     public function detachPermission($permission);
