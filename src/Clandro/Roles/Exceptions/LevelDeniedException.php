@@ -1,6 +1,6 @@
 <?php
 
-namespace Clandro\RolesExceptions;
+namespace Clandro\Roles\Exceptions;
 
 class LevelDeniedException extends AccessDeniedException
 {

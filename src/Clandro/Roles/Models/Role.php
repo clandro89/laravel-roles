@@ -1,11 +1,11 @@
 <?php
 
-namespace Clandro\RolesModels;
+namespace Clandro\Roles\Models;
 
 use Clandro\RolesTraits\Slugable;
 use Illuminate\Database\Eloquent\Model;
-use Clandro\RolesTraits\RoleHasRelations;
-use Clandro\RolesContracts\RoleHasRelations as RoleHasRelationsContract;
+use Clandro\Roles\Traits\RoleHasRelations;
+use Clandro\Roles\Contracts\RoleHasRelations as RoleHasRelationsContract;
 
 class Role extends Model implements RoleHasRelationsContract
 {

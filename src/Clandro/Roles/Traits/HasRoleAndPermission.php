@@ -1,6 +1,6 @@
 <?php
 
-namespace Clandro\RolesTraits;
+namespace Clandro\Roles\Traits;
 
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
@@ -298,7 +298,7 @@ trait HasRoleAndPermission
     /**
      * Attach permission to a user.
      *
-     * @param int|\Clandro\RolesModels\Permission $permission
+     * @param int|\Clandro\Roles\Models\Permission $permission
      * @return null|bool
      */
     public function attachPermission($permission)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clandro\RolesContracts;
+namespace Clandro\Roles\Contracts;
 
 interface RoleHasRelations
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Clandro\RolesTraits;
+namespace Clandro\Roles\Traits;
 
 use Illuminate\Support\Str;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Clandro\RolesMiddleware;
+namespace Clandro\Roles\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
-use Clandro\RolesExceptions\PermissionDeniedException;
+use Clandro\Roles\Exceptions\PermissionDeniedException;
 
 class VerifyPermission
 {

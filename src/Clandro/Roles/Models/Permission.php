@@ -1,11 +1,11 @@
 <?php
 
-namespace Clandro\RolesModels;
+namespace Clandro\Roles\Models;
 
 use Clandro\RolesTraits\Slugable;
 use Illuminate\Database\Eloquent\Model;
-use Clandro\RolesTraits\PermissionHasRelations;
-use Clandro\RolesContracts\PermissionHasRelations as PermissionHasRelationsContract;
+use Clandro\Roles\Traits\PermissionHasRelations;
+use Clandro\Roles\Contracts\PermissionHasRelations as PermissionHasRelationsContract;
 
 class Permission extends Model implements PermissionHasRelationsContract
 {
