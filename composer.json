@@ -18,5 +18,12 @@
         "psr-0": {
             "Clandro\\Roles": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Clandro\\Roles\\RolesServiceProvider"
+            ]
+        }
     }
 }
