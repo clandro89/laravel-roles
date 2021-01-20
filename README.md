@@ -6,7 +6,7 @@ stopped uploading  updates and in some Laravel versions it generated
 mistakes.
 
 
-Powerful package for handling roles and permissions in Laravel 5.
+Powerful package for handling roles and permissions in Laravel.
 
 - [Installation](#installation)
     - [Composer](#composer)
